@@ -5,4 +5,8 @@ var Sqlite = require("nativescript-sqlite");
     selector: "ns-app",
     templateUrl: "app.component.html"
 })
-export class AppComponent { }
+export class AppComponent {
+
+  
+}
+ 

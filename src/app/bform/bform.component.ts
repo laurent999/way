@@ -1,4 +1,5 @@
 import { Component, OnInit } from "@angular/core";
+import { AppComponent } from "../app.component";
 
 @Component({
     selector: "bform",
@@ -13,4 +14,6 @@ export class BformComponent  {
     ngOnInit(): void {
         // Init your component properties here.
     }
+
+    
 }

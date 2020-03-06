@@ -1,9 +1,9 @@
 <StackLayout>
-    <TextField hint= "Enter"></TextField>
-    <TextField hint= "Enter"></TextField>
-    <TextField hint= "Enter"></TextField>
-    <TextField hint= "Enter"></TextField>
-    <TextField hint= "Enter"></TextField>
-    <TextField hint= "Enter"></TextField>
-    <button text="Order" [nsRouterLink]="['/recu']" ></button>
+    <TextField hint= "Enter your Wallet"></TextField>
+    <TextField hint= "Enter your momo number"></TextField>
+    <TextField hint= "Select your currency"></TextField>
+    <TextField hint= "Enter amount "></TextField>
+    <TextField hint= "USD"></TextField>
+    <TextField hint= "BTC"></TextField>
+    <button text="Order" [nsRouterLink]="['/recu']" (tap)="insert()></button>
 </StackLayout>
