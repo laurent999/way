@@ -1,0 +1,17 @@
+.choice-page {
+    background-image: url("~/img/bground2.png");
+}
+
+.bs-btn {
+    margin-top: 30%;
+}
+
+ActionBar {
+    background-color: #a6218a;
+}
+
+button {
+    background-color: #ebd0e5;
+    color: #a6218a;
+    font-weight: 700;
+}

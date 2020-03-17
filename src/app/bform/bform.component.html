@@ -1,9 +1,10 @@
-<StackLayout>
-    <TextField hint= "Enter your Wallet"></TextField>
+<ActionBar title="purchase form"></ActionBar>
+<StackLayout class="bform-page">
+    <TextField hint= "Enter your Wallet" class="hauteur"></TextField>
     <TextField hint= "Enter your momo number"></TextField>
     <TextField hint= "Select your currency"></TextField>
     <TextField hint= "Enter amount "></TextField>
     <TextField hint= "USD"></TextField>
     <TextField hint= "BTC"></TextField>
-    <button text="Order" [nsRouterLink]="['/recu']" (tap)="insert()></button>
+    <button text="Order" [nsRouterLink]="['/recu']" (tap)="insert()"> </button>
 </StackLayout>

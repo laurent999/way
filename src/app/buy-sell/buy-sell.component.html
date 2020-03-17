@@ -1,13 +1,19 @@
 <StackLayout>
-    <Label text="Buy Crypto Instantly" textWrap="true"></Label>
-    <button text="bitcoin BTC" [nsRouterLink]="['/bform']"></button>
-    <button text="bitcoin Cash BCH" [nsRouterLink]="['/bform']"></button>
-    <button text="Eutherumcoin ETH" [nsRouterLink]="['/bform']" ></button>
-    <button text="Litecoin LTC" [nsRouterLink]="['/bform']" ></button>
+    
+    <Label text="Buy Crypto Instantly" textWrap="true" class="buy-part"></Label>
+    <GridLayout columns="*,*" rows="*,*" height="100">
+        <button text="bitcoin BTC" [nsRouterLink]="['/bform']" row="0" col="0"></button>
+        <button text="Eutherumcoin ETH" [nsRouterLink]="['/bform']" row="0" col="1"></button>
+        <button text="bitcoin Cash BCH" [nsRouterLink]="['/bform']" row="1" col="0"></button>
+        <button text="Litecoin LTC" [nsRouterLink]="['/bform']" row="1" col="1" ></button>
+    </GridLayout>
+    
+    <Label text="Sell Crypto Instantly" textWrap="true" class="buy-part2"></Label>
+    <GridLayout columns="*,*" rows="*,*" height="100">
+        <button text="bitcoin BTC" [nsRouterLink]="['/bform']" row="0" col="0"></button>
+        <button text="Eutherumcoin ETH" [nsRouterLink]="['/bform']" row="0" col="1"></button>
+        <button text="bitcoin Cash BCH" [nsRouterLink]="['/bform']" row="1" col="0"></button>
+        <button text="Litecoin LTC" [nsRouterLink]="['/bform']" row="1" col="1" ></button>
+    </GridLayout>
 
-    <Label text="Sell Crypto Instantly" textWrap="true"></Label>
-    <button text="bitcoin BTC" [nsRouterLink]="['/sform']" ></button>
-    <button text="bitcoin Cash BCH" [nsRouterLink]="['/sform']" ></button>
-    <button text="Eutherumcoin ETH" [nsRouterLink]="['/sform']" ></button>
-    <button text="Litecoin LTC" [nsRouterLink]="['/sform']" ></button>
 </StackLayout>

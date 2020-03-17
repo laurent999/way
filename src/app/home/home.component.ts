@@ -1,4 +1,6 @@
 import { Component, OnInit } from "@angular/core";
+import { Page } from 'tns-core-modules/ui/page/page';
+
 @Component({
     selector: "Home",
     templateUrl: "./home.component.html",
@@ -6,7 +8,9 @@ import { Component, OnInit } from "@angular/core";
 })
 export class HomeComponent implements OnInit {
 
-    constructor() {}
+    constructor( private page: Page) {
+    	this.page.actionBarHidden = true;
+    }
     
     ngOnInit(): void {}
 }

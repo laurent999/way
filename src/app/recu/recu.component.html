@@ -1,46 +1,16 @@
 <ScrollView orientation="vertical">
-    <StackLayout orientation="vertical">
-        <label text="Purchase"></label> 
-        <label text="montant"></label> 
-        <label text="---------------------------"></label> 
+    <StackLayout class="stack2">
+        <GridLayout columns="*,*" rows="30,30,30,30,50" height="140">
+            <label text="PURCHASE" row="0" col="0" class="separe left-la"></label>
+            <label text="BCH"row="0" col="1" class="white-color separe"></label> 
 
-        <label text="Purchase"></label> 
-        <label text="montant"></label> 
-        <label text="---------------------------"></label> 
+            <label text="DEXWAY FEE" row="1" col="0" class="separe left-la"></label>
+            <label text="BCH"row="1" col="1" class="white-color separe"></label> 
 
-        <label text="Dexway fee"></label> 
-        <label text="montant"></label> 
-        <label text="---------------------------"></label> 
+            <label text="TOTAL" row="2" col="0" class="separe left-la"></label>
+            <label text="BCH"row="2" col="1" class="white-color separe"></label> 
 
-        <label text="TOtal"></label> 
-        <label text="montant"></label> 
-        <label text="---------------------------"></label> 
-
-        <label text="montant"></label> 
-        <label text="---------------------------"></label> 
-
-        <button text="next"></button>
-
-        <label text="Purchase"></label> 
-        <label text="montant"></label> 
-        <label text="---------------------------"></label> 
-
-        <label text="Purchase"></label> 
-        <label text="montant"></label> 
-        <label text="---------------------------"></label> 
-
-        <label text="Dexway fee"></label> 
-        <label text="montant"></label> 
-        <label text="---------------------------"></label> 
-
-        <label text="TOtal"></label> 
-        <label text="montant"></label> 
-        <label text="---------------------------"></label> 
-
-        <label text="montant"></label> 
-        <label text="---------------------------"></label> 
-
-        <button text="Back"></button>
-        <button text="Buy" [nsRouterLink]="['/succes']"></button>
+            <label text="USD"row="3" colSpan="2" class="white-color separe "></label>
+        </GridLayout>
     </StackLayout>
 </ScrollView>

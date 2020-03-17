@@ -1,0 +1,23 @@
+.pin-page {
+    background-image: url("~/img/bgroung1.png");
+}
+
+.text-pin {
+    margin-top: 40%;
+}
+
+TextField {
+    color: white;
+    text-align: center;
+    font-weight: 600;
+}
+
+button {
+    background-color: transparent;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: white;
+    width: max-content;
+    color: white;
+    font-weight: 700;
+}

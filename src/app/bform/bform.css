@@ -1,0 +1,25 @@
+StackLayout {
+    background-image: url("~/img/bground2.png");
+}
+
+.hauteur {
+    margin-top: 20%;
+}
+
+TextField {
+    background-color: #a6218a;
+    color:white;
+    border-radius: 10px;
+    padding-left: 3%;
+}
+
+button {
+    background-color: #a6218a;
+    border-radius: 30px;
+    width: 20%;
+    color: white;
+}
+
+TextField:hint {
+    color: rosybrown;
+}

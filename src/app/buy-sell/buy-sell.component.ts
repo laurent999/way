@@ -1,5 +1,5 @@
 import { Component, OnInit } from "@angular/core";
-
+import { Page } from 'tns-core-modules/ui/page/page';
 @Component({
     selector: "buy-sell",
     templateUrl: "./buy-sell.component.html",
@@ -7,9 +7,8 @@ import { Component, OnInit } from "@angular/core";
 })
 export class BuysellComponent  {
 
-    constructor() {
-        // Use the component constructor to inject providers.
-    }
+    constructor( private page: Page) {
+        this.page.actionBarHidden = true;}
 
     ngOnInit(): void {
         // Init your component properties here.

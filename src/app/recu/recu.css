@@ -1,0 +1,31 @@
+.white-color {
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: right;
+}
+
+GridLayout {
+    background-color: #a6218a;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.separe {
+    margin-top: 20px;
+}
+
+
+Label {
+    padding-left: 5%;
+}
+.left-la {
+    color: #fff;
+}
+
+.stack2 {
+    margin-top: 20%;
+}
+
+.stack1 {
+    margin-top: 20%;
+}

@@ -13,6 +13,7 @@ import { SellComponent } from "./sell/sell.component";
 import { ExchangeComponent } from "./exchange/exchange.component";
 import { SoonComponent } from "./soon/soon.component";
 
+
 @NgModule({
     bootstrap: [
         AppComponent
